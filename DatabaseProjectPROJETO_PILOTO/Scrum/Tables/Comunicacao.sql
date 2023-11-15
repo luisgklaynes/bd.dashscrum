@@ -3,7 +3,7 @@ CREATE TABLE [Scrum].[Comunicacao] (
     [DataComunicacao] DATETIME      NULL,
     [TipoComunicacao] VARCHAR (50)  NULL,
     [Participantes]   VARCHAR (MAX) NULL,
-    [Resumo]          VARCHAR (MAX) NULL,
+    [Resumo]          VARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([ComunicacaoID] ASC)
 );
 
