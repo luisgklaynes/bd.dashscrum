@@ -1,0 +1,6 @@
+CREATE SCHEMA [Scrum]
+    AUTHORIZATION [dbo];
+
+
+GO
+
